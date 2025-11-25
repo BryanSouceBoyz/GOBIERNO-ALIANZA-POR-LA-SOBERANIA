@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Detalle - Gobierno Futuro Nacional</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="site-header">
+        <div class="container nav">
+            <div class="nav-left">
+                <a href="index.html#inicio" class="logo">
+                    <div class="logo-icon">GF</div>
+                    <div class="logo-text">
+                        <span class="logo-title">EL DRIN TIM</span>
+                        <span class="logo-subtitle">República Democrática</span>
+                    </div>
+                </a>
+            </div>
+
+            <button class="nav-toggle" aria-label="Abrir menú" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-right" id="nav-right">
+                <ul class="nav-links">
+                    <li><a href="detalle.html?seccion=centro">El centro</a></li>
+                    <li><a href="detalle.html?seccion=programas">Programas</a></li>
+                    <li><a href="detalle.html?seccion=historias">Historias</a></li>
+                    <li><a href="detalle.html?seccion=sobre-nosotros">Acerca de nosotros</a></li>
+                    <li><a href="detalle.html?seccion=apoyanos">Apóyanos</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <form class="search-form" id="search-form" action="#" method="get">
+                        <input type="text" name="q" placeholder="Buscar..." />
+                    </form>
+
+                    <button class="icon-button" id="search-toggle" aria-label="Buscar">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="10.5" cy="10.5" r="6.5"></circle>
+                            <line x1="15" y1="15" x2="21" y2="21"></line>
+                        </svg>
+                    </button>
+
+                    <a href="detalle.html?seccion=apoyanos" class="btn btn-primary">Donaciones</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="detail-main">
+        <section class="detail-hero">
+            <div class="container">
+                <p class="detail-breadcrumb">
+                    <a href="index.html">Inicio</a> ·
+                    <span id="detail-category">Detalle</span>
+                </p>
+                <h1 class="detail-title" id="detail-title">
+                    Título de la sección
+                </h1>
+                <p class="detail-intro" id="detail-intro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales
+                    vestibulum risus non viverra.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container" id="detail-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reprehenderit
+                    commodi ab quos, ipsa impedit. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Dolor, porro.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>© 2025 Gobierno Drin Tim.</p>
+            <div class="footer-links">
+                <a href="detalle.html?seccion=informes-anuales">Términos</a>
+                <a href="detalle.html?seccion=info-financiera">Privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
